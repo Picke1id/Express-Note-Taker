@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(express.static("public")); 
 
 // ROUTES FOR API AND HTML
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./Develop/routes/apiRoutes")(app);
+require("./Develop/routes/htmlRoutes")(app);
 
 
 // LISTENER TO START SERVER
